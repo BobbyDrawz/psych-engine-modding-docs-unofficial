@@ -149,4 +149,4 @@ BobbyDrawz_::bobby::insert description here::https://gamebanana.com/members/3384
 
 in order to create credits icon, refer to the custom character section.
 
-[link back to readme/home doc](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/new/main)
+[link back to readme/home doc](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/README.md)
