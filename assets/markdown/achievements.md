@@ -71,4 +71,6 @@ Here’s an example of a custom achievement configuration:
 This achievement is hidden and will only be revealed when the player meets the condition of completing all songs on Hard mode without missing a note.
 
 ---
+You have to create a square bracket opening like how you did for settings.json, then import your achievements.
+
  [link back to readme/home doc](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/README.md)
