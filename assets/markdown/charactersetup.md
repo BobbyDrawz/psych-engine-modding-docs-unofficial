@@ -103,6 +103,8 @@ Click on an existing animation to update its properties, such as frame rate, loo
 
 Save Your Character: Once you’ve set up all your animations, save your character settings as a .json file in `mods/Your-Mod-Name/characters/`. Keep it short and easy to find like `bf.json` or `pico-playable.json`
 
+Note: Sometimes if you select a character to be an opponent, it takes gf's spot like in tutorial. This is because the character json name starts with `gf`.
+
 Test in-game: Test the character in-game to ensure all animations are playing correctly and transitions are smooth.
 
 [link back to readme/home doc](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/README.md)
