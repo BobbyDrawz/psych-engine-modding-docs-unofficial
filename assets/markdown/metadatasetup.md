@@ -147,6 +147,6 @@ an example of this is here:
 BobbyDrawz_::bobby::insert description here::https://gamebanana.com/members/3384454::FFDD33
 ```
 
-in order to create credits icon, refer to the custom character section.
+in order to create credits icon, refer to [this icon guide](https://gamebanana.com/tuts/17214).
 
 [link back to readme/home doc](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/README.md)
