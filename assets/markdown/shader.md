@@ -63,7 +63,7 @@ You can apply shaders to specific elements like characters, backgrounds, or even
 
 ## 3. Generative Shaders on Stages
 
-If you found a good shader and you want to use it for a full stage, then add a new file in `mods/shaders/` or `mods/Your-Mod-Name/shaders/` and call it whatever you want. There are 2 components to a stage. the `.json` file [for character offset and image directory n' shit] and the `.lua` file [which actually assembles graphics for stage]. for the `.json` file, its easiest to simply copy-paste the file from `assets/shared/stages/stage.json` as the week 1 stage offset config is as good as it is. For the `.lua` file, you are going to want something like this:
+If you found a good shader and you want to use it for a full stage, then add a new file in `mods/stages/` or `mods/Your-Mod-Name/stages/` and call it whatever you want. There are 2 components to a stage. the `.json` file [for character offset and image directory n' shit] and the `.lua` file [which actually assembles graphics for stage]. for the `.json` file, its easiest to simply copy-paste the file from `assets/shared/stages/stage.json` as the week 1 stage offset config is as good as it is. For the `.lua` file, you are going to want something like this:
 
 ```lua
 local bgShaderName = 'shader'
