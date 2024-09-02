@@ -12,6 +12,7 @@ Welcome to my unofficial documentation for modding Psych Engine. This repository
 - [Achievements](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/assets/markdown/achievements.md)
 - [Song Export Tips](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/assets/markdown/songexport.md)
 - [My VSCode Extensions](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/assets/markdown/vscode.md)
+- [Using Shaders](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/assets/markdown/shader.md)
 
 ## How to Use
 
