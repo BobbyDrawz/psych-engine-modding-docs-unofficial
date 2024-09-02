@@ -61,7 +61,35 @@ end
 
 You can apply shaders to specific elements like characters, backgrounds, or even notes. Replace `camera` with the target element's ID or name if needed.
 
-## 3. Testing and Tweaking
+## 3. Generative Shaders on Stages
+
+If you found a good shader and you want to use it for a full stage, then add a new file in `mods/shaders/` or `mods/Your-Mod-Name/shaders/` and call it whatever you want. There are 2 components to a stage. the `.json` file [for character offset and image directory n' shit] and the `.lua` file [which actually assembles graphics for stage]. for the `.json` file, its easiest to simply copy-paste the file from `assets/shared/stages/stage.json` as the week 1 stage offset config is as good as it is. For the `.lua` file, you are going to want something like this:
+
+```lua
+local bgShaderName = 'shader'
+
+function onCreate()
+	-- background shit
+	makeLuaSprite('background', 'stageback', -600, -300);
+	setScrollFactor('background', 0.9, 0.9);
+
+	addLuaSprite('background', false);
+end
+
+function onCreatePost()
+    initLuaShader(bgShaderName)
+ 
+    setSpriteShader("background", bgShaderName)
+end
+ 
+function onUpdate()
+    --setShaderFloat("background", "uVariable", 1)
+end
+```
+
+This loads the week 1 stage background and applies a shader to it. The `setShaderFloat` comment in the `onUpdate` function is to have comment marks removed incase there's an actual variable in the haxeflixel shader you need to configure.
+
+## 4. Testing and Tweaking
 
 After applying the shader, it's essential to test it across different levels and scenes to ensure it behaves as expected. Sometimes, shaders may need tweaking, especially in terms of how they interact with other visual effects.
 
