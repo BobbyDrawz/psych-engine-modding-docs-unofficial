@@ -9,6 +9,7 @@ Hscript is a lightweight Haxe scripting engine that allows you to write Haxe scr
 ### 1.1 Script Placement
 
 - **Script Files**: Place your `.hx` files in the `mods/Your-Mod-Name/scripts/` directory. Psych Engine will automatically detect and execute these scripts during gameplay.
+- **Character Specific Scripts**: Character-specific `.hx` files work in the same manner as lua files in naming sense. If you only want a script to run on a specific character [e.g. `bf-pixel.json`], then add the script in `mods/Your-Mod-Name/characters` and title it the character's name [e.g. `bf-pixel.hx`].
 
 ### 1.2 Basic Structure of an hscript File
 
