@@ -23,6 +23,9 @@ Click on any of the links above to access the specific guide you are interested 
 Feel free to contribute to this documentation by creating a pull request. Your contributions will help improve the quality and accuracy of the guides available to the community.
 
 [link to empty achievement/modpack icon template is here](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/art/flashFiles/emptyAchievement.png)
+
+[link to my fnf modding resources doc is here](https://github.com/BobbyDrawz/FunkinModdinResources)
+
 ---
 
 Happy modding!
