@@ -7,7 +7,8 @@ This guide will help you understand and use Lua scripting in Friday Night Funkin
 Lua scripting in Psych Engine is versatile and powerful, enabling modders to create dynamic gameplay experiences. Before diving into specific functions and scripts, it's important to understand the basics:
 
 - **Scripts Location**: Lua scripts should be placed in the `mods/Your-Mod-Name/scripts/` directory. Psych Engine will automatically load and run these scripts when the corresponding song is played.
-- **File Naming**: Lua files should be named clearly to reflect their purpose (e.g., `noteHit.lua` for a script that runs when a note is hit).
+- **Character-Specific Folder Check**: If a script is only meant to run on a specific character, then it should be in the `mods/Your-Mod-Name/characters` folder.
+- **File Naming**: Lua files should be named clearly to reflect their purpose (e.g., `noteHit.lua` for a script that runs when a note is hit). If in characters folder, then name it the character's name [e.g. if the script is only supposed to run on `pico-playable.json`, then name the lua file `pico-player.lua`
 
 ## 2. Basic Structure of a Lua Script
 
