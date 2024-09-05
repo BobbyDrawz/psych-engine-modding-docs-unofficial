@@ -38,7 +38,7 @@ The **Section** tab is where you can control how each section of the chart behav
 
 - **Must Hit Section**: Determines if the player must hit the notes in this section.
 - **GF Section**: Designates a section where Girlfriend sings or plays.
-- **Alt Anim**: Uses alternate animations for characters during this section.
+- **Alt Anim**: Uses alternate animations for opponent character during this section.
 - **Change BPM**: Allows you to change the BPM for a specific section.
 - **Beats per Section**: Sets the number of beats in a section.
 - **Copy Section**, **Paste Section**, **Clear**: Tools to copy, paste, or clear sections of the chart.
@@ -55,6 +55,13 @@ The **Note** tab is crucial for customizing the notes in your chart:
 ### 3.1 Custom Note Types
 
 You can create custom note types by placing Lua files in the `mods/Your-Mod-Name/custom_notetypes/` directory. For song-specific custom notes, list them in the `mods/Your-Mod-Name/data/yourSongName/notetypes.txt` file.
+
+Example note types include:
+- **Alt Animation**: Plays alternate animations for characters [e.g. normally left note plays `singLEFT`, but alt left note plays `singLEFT-alt`]. [here](https://www.mediafire.com/file/vrwne3ye6t4bqf9/sfg-bf-alt-anims.zip/file)'s a link that gives BF his alternate animations from Super Funkin' Galaxy [an SMG FNF mod by SPG64, but that's not important].
+- **HEY!**: Plays the respective character's `hey` animation, if there is one.
+- **Hurt Note!**: Basic hurt notes that take some of the player's health away if hit.
+- **GF Sing**: Instead of the `boyfriend`/`dad` characters singing, instead the `gf` character sings.
+- **No Animation**: Functions like a normal note, but without the character doing their animation. This is useful for moments in which a pivotal animation is playing [e.g. Pico's breakdancing from Unloaded].
 
 ## 4. Event Properties
 
@@ -75,7 +82,7 @@ The **Data** tab lets you adjust game over settings and other visual properties:
 - **Game Over Character**: Selects the character displayed during the game over screen.
 - **Game Over Death Sound**: Specifies the sound that plays when the player dies.
 - **Game Over Loop Music** and **Retry Music**: Sets the music that plays during the game over screen.
-- **Disable Note RGB**: Disables the RGB effect on notes.
+- **Disable Note RGB**: Disables the RGB effect on notes. This has the notes viewed as red [main note color], green [white middle], and blue [outline] textures.
 - **Note Texture** and **Note Splashes Texture**: Allows you to set custom textures for notes and note splashes.
 
 ## 6. Saving and Managing Charts
