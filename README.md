@@ -14,6 +14,7 @@ Welcome to my unofficial documentation for modding Psych Engine. This repository
 - [My VSCode Extensions](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/assets/markdown/vscode.md)
 - [Using Shaders](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/assets/markdown/shader.md)
 - [Language Translations](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/assets/markdown/translate.md)
+- [RTX-Type Lighting](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/assets/markdown/lighting.md)
 
 ## How to Use
 
