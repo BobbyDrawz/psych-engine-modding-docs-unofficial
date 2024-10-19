@@ -93,7 +93,7 @@ Make sure to test all game modes (e.g., Story Mode, Freeplay) to ensure that eve
 
 ## Step 7: Share Your Translation
 
-Once your translation is complete, feel free to share it as part of your mod or upload it as a standalone language mod. Ensure it is correctly named and stored in the `mods/data/languages/` directory for others to use easily.
+Once your translation is complete, feel free to share it as part of your mod or upload it as a standalone language mod. Ensure it is correctly named and stored in the `mods/data/` directory for others to use easily.
 
 ---
 
