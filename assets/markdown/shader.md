@@ -44,7 +44,7 @@ function onCreatePost()
         setSpriteShader("temporaryShader", shaderName);
         --addHaxeLibrary("ShaderFilter", "openfl.filters");
 
-	--apparantly addHaxeLibrary is deprecated for psych engine 1.0, uncomment the line if you are below 1.0 on something that supports shaders
+	--apparently addHaxeLibrary is deprecated for psych engine 1.0, uncomment the line if you are below 1.0 on something that supports shaders
 	
         runHaxeCode([[
             trace(ShaderFilter);
