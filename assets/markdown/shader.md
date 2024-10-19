@@ -105,5 +105,3 @@ By following this guide, you can add visually stunning shaders to your Friday Ni
 Happy modding!
 
 [link back to readme/home doc](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/README.md)
-
-[link to anamorphic effects haxeflixel shader provided by rbz_fzo](https://www.mediafire.com/file/3t8pcoqtwylb88v/anamorphix.txt/file)
