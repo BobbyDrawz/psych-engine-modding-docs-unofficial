@@ -117,4 +117,3 @@ Scripts are saved and managed within the song’s data folder:
 
 ---
 [link back to readme/home doc](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/README.md)
-[link to hscript doc](https://github.com/BobbyDrawz/psych-engine-modding-docs-unofficial/blob/main/assets/markdown/haxe.md)
