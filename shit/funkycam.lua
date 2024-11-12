@@ -1,6 +1,6 @@
 
 --[[
-    Script by @Arm4GeDon_
+    Script by @Arm4GeDon_, edited by bobbydelux
 ]]
 luaDebugMode = true
 
