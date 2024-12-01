@@ -25,8 +25,6 @@ Feel free to contribute to this documentation by creating a pull request. Your c
 
 [link to empty achievement/modpack icon template is here](https://github.com/ShadowMario/FNF-PsychEngine/blob/main/art/flashFiles/emptyAchievement.png)
 
-[link to my fnf modding resources doc is here](https://github.com/BobbyDrawz/FunkinModdinResources)
-
 ---
 
 Happy modding!
